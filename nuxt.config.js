@@ -62,7 +62,8 @@ module.exports = {
     {
       src: "@/plugins/vueselect.js",
       ssr: false
-    }
+    },
+    { src: "@/plugins/ga.js", mode: "client" }
   ],
 
   /*
@@ -77,6 +78,6 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 };
