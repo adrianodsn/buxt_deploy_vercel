@@ -62,8 +62,8 @@ module.exports = {
     {
       src: "@/plugins/vueselect.js",
       ssr: false
-    }//,
-    //{ src: "@/plugins/ga.js", mode: "client" }
+    },
+    "@/plugins/gtag.js"
   ],
 
   /*
@@ -79,13 +79,5 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) { }
-  },
-
-  buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
-
-  googleAnalytics: {
-    id: 'G-L9KQN9SRLD'
   }
 };

@@ -11,10 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.4.0",
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
+    "vue-gtag": "^1.10.0",
     "vue-scrollto": "^2.13.0",
     "vue-select": "^2.5.1"
   },
