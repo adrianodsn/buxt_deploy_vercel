@@ -1,8 +1,10 @@
 <template>
   <div>
-  	<Nav/>
-  	<div class="jumbotron"></div>
-    <nuxt/>
+    <Nav />
+    <div class="jumbotron"></div>
+    <div class="container py-5">
+      <nuxt />
+    </div>
   </div>
 </template>
 

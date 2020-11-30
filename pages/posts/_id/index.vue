@@ -1,9 +1,17 @@
 <template>
-	<div class="container">
-		<h1>{{post.title}}</h1>
-		<pre>{{post.body}}</pre>
-		<nuxt-link to="/posts">Back to posts</nuxt-link>
-	</div>
+  <div class="container">
+    <h2>{{ post.title }}</h2>
+    <pre>{{ post.body }}</pre>
+    <!-- <nuxt-link class="btn btn-outline-secondary" to="/posts"
+      >Back to posts</nuxt-link
+    > -->
+    <a
+      class="btn btn-outline-secondary"
+      href="#"
+      onclick="history.back();return false;"
+      >Back to posts</a
+    >
+  </div>
 </template>
 
 <script>

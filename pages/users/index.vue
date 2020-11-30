@@ -1,10 +1,9 @@
 <template>
-	<div>
-		<h1>hello users</h1>
-
-	  <input type="text" v-model="id">
-	  <button @click="loadUser">Load user</button>
-	</div>
+  <div>
+    <h2>Hello users</h2>
+    <input type="text" v-model="id" />
+    <button @click="loadUser">Load user</button>
+  </div>
 </template>
 
 <script>

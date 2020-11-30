@@ -1,10 +1,14 @@
 <template>
-	<div>
-		<h1>hello world</h1>
-		<no-ssr>
-	  		<v-select v-model="selected" placeholder="Select Category" :options="['foo', 'bar']"></v-select>
-	  	</no-ssr>
-	</div>
+  <div>
+    <h2>Hello world</h2>
+    <no-ssr>
+      <v-select
+        v-model="selected"
+        placeholder="Select Category"
+        :options="['foo', 'bar']"
+      ></v-select>
+    </no-ssr>
+  </div>
 </template>
 
 <script>
